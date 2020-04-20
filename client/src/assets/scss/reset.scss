@@ -1,0 +1,62 @@
+.van-picker-column {
+  font-size: 24px !important;
+} 
+.van-picker__cancel {
+  font-size: 24px !important;  
+}
+.van-picker__confirm {
+  font-size: 24px !important;
+}
+.van-picker__toolbar {
+  height: 70px !important;
+  line-height: 70px !important;
+}
+
+.van-dialog {
+  width: 600px !important;
+  .van-dialog__header {
+    font-size: 28px;
+  }
+  .van-button__text {
+    font-size: 24px;
+  }
+  .van-button {
+    margin: 10px 0;
+  }
+  .van-dialog__content {
+    font-size: 24px;
+    padding: 10px 0;
+  }
+}
+
+.van-uploader {
+  width: 750px;
+  margin: 0 auto;
+  display: block !important;
+  .van-uploader__wrapper {
+    .van-uploader__preview {
+      margin-right: 40px;
+      .van-image {
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+      }
+      .van-icon-clear {
+        font-size: 35px;
+        z-index: 2;
+      }
+    }
+    .van-uploader__upload {
+      display: inline-block;
+      height: 200px;
+      line-height: 200px;
+      width: 200px;
+      text-align: center;
+      // border: 1px solid #666;  
+      .van-uploader__upload-icon {
+        font-size: 50px;
+        top: 15px;
+      }
+    }
+  }
+}
