@@ -1,5 +1,4 @@
-# vue_shop
-
+# manage
 ## Project setup
 ```
 npm install
